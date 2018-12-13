@@ -1,0 +1,29 @@
+
+.bg_black{
+  background-color: black;
+}
+
+.centered{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.margin_left{
+  margin-left: 15%;
+}
+
+.margin_left2{
+  margin-left: 5%;
+}
+
+.margin_right{
+  margin-right: 12%;
+}
+
+.bg_round{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 1%;
+}
