@@ -4,6 +4,6 @@
 
 .background_image{
   background-image: url(images/fond_japonais_d_erable_orange.jpg);
-
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
