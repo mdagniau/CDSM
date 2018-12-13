@@ -5,23 +5,45 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>Test GitHUb</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Nouvelle page 1</title>
+<script type='text/javascript'>
+var rainbow=new Array('violet','indigo','blue','green','yellow','orange','red');
+var step=0
+function arcenciel(chaine){
+tabchaine=chaine.split('')
+var i=0
+var arc=document.createElement('div')
+while(tabchaine[i++]){
+	var lettre=document.createElement('span')
+	lettre.innerHTML=(tabchaine[i-1]==" ")?"&nbsp;":tabchaine[i-1];
+	lettre.id='lettre'+(i-1)
+	arc.appendChild(lettre)
+	}
+document.body.appendChild(arc)
+var irise=setInterval (function(){colorise(tabchaine.length)},100)
+}
 
-      <center>
-        <h1>Le meilleur</h1>
-        <b>
-        <h1>le plus beau</h1>
-        <b>
-        <h1>Pour vos yeux</h1>
-        <b>
-          <img src=https://www.frogtoon.com/fb_main_music_artists/images/__isrc.jsp?_arpid=iRbqCvjV1rE >
-          <b>
-        <h1>Alexander Pistoletov</p>
-</center>
-    </body>
+
+function colorise(long){
+temp=step
+
+for (i=0;i<long; i++){
+   couleur=(long+temp-i) % 7
+   document.getElementById('lettre'+i).style.color=rainbow[couleur]
+   }
+   step++
+   }
+</script >
+<style type="text/css">
+body {background-color: silver;}
+</style>
+
+</head>
+
+<body onload="Mister Mv un dieu parmi la plèbe">
+
+</body>
+
 </html>
