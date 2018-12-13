@@ -1,6 +1,7 @@
 h3 {
   margin: auto;
-  color: grey;
+  color: black;
+  text-shadow: 2px 2px 2px white;
 
 }
 header {
@@ -8,4 +9,18 @@ header {
 }
 image.img {
   align-items: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(image/fond.jpg);
+}
+
+h4 {
+  margin: auto;
+  color: #780211;
+  text-shadow: 2px 2px 2px white;
+
 }
