@@ -1,7 +1,8 @@
 h3 {
   margin: auto;
   color: black;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 2px 2px 2px #CCD1CD;
+  text-align: center;
 
 }
 header {
@@ -20,7 +21,8 @@ body {
 
 h4 {
   margin: auto;
-  color: #780211;
-  text-shadow: 2px 2px 2px white;
+  color: black;
+  text-shadow: 2px 2px 2px #CCD1CD;
+  text-align: center;
 
 }
