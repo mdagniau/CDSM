@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML>
+     <HEAD>
+		 <meta charset="UTF-8">
+		 <title> Welcom in my Paradise </title>
+		<link rel="stylesheet" text="text/css" href="style.css">
+	 </HEAD>
+	 <body>
+	    <header>
+			<h1> RAMOUN HOTEL </h1>
+	    </header>
+	    <main>
+			List of Rooms
+			<div class="List of Rooms">
+				<div>
+					 <img src="image1.jpg" />
+					 <h2>Royal Room</h2>
+
+				</div>
+				<div>
+					<img src="image2.jpg" />
+					<h3>Familly Room</h3>
+
+				</div>
+				<div>
+					<img src="image3.jpg" />
+					<h4>Room for 1 Person</h4>
+
+				</div>
+			</div>
+			<form>
+				<h1> information client</h1>
+				<label for="prenom">Prénom</label> <input type="text" id="prenom">
+				<label for="Nom">NOM</label> <input type= "text" id="nom"
+				<label for="Nom">télephone</label> <input type= "text" id="télephone"
+				<label for="Nom">adresse émail</label> <input type= "text" id="adresse émail"
+                <label for="Nom">@</label> <input type= "text" id="@"
+				<label for="Nom">adresse</label> <input type= "text" id="adresse"
+				<label for="Nom">code postale</label> <input type= "text" id="code postale"
+
+
+			<input type="submit" value= "commander">
+			</form>
+	    </main>
+		<footer>
+                <br /> <br/> <br /><br />Timinous Pizza<br />
+		        12 rue carnot, paris75087
+
+		</footer>
+	</body>
+
+
+
+
+
+
+</html>
